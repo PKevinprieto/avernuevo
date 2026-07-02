@@ -24,20 +24,38 @@ function createCard(product) {
   card.appendChild(back);
   cards.appendChild(card);
 }
+// function createFront(product) {
+//   const front = document.createElement("div");
+//   front.classList.add("front-div");
+//   const title = createTitle(product);
+//   const image = createImage(product);
+//   const price = createPrice(product);
+//   const btnView = createButton("View More", "btn-view");
+//   front.appendChild(title);
+//   front.appendChild(image);
+//   front.appendChild(price);
+//   front.appendChild(btnView);
+//   btnView.addEventListener("click", () => {
+//     front.style.display = "none";
+//   });
+//   return front;
+// }
 function createFront(product) {
   const front = document.createElement("div");
   front.classList.add("front-div");
-  const title = createTitle(product);
+
+  const imageContainer = document.createElement("div");
+  imageContainer.classList.add("image-container");
+
   const image = createImage(product);
-  const price = createPrice(product);
-  const btnView = createButton("View More", "btn-view");
-  front.appendChild(title);
-  front.appendChild(image);
-  front.appendChild(price);
-  front.appendChild(btnView);
-  btnView.addEventListener("click", () => {
-    front.style.display = "none";
-  });
+
+  imageContainer.appendChild(image);
+
+  front.appendChild(createTitle(product));
+  front.appendChild(imageContainer);
+  front.appendChild(createPrice(product));
+  front.appendChild(createButton("View More", "btn-view"));
+
   return front;
 }
 function createBack(product) {
@@ -97,16 +115,6 @@ function createSpecs(product) {
   });
   return ul;
 }
-
-// productos.forEach(createCard);
-
-// BUSCADOR
-
-// function renderCards(listaProductos) {
-//   cards.innerHTML = "";
-
-//   listaProductos.forEach(createCard);
-// }
 function renderCards(listaProductos) {
   console.log("Antes:", cards.children.length);
 
