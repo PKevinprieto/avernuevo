@@ -1,10 +1,11 @@
 const productos = [
   {
-    name: "IPHONE 17 PRO MAX",
+    name: "iPhone 17 Pro Max",
 
     image: "celulares/crop_i17pm.png",
 
-    price: "$0.000",
+    price: "$2.000,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -16,11 +17,12 @@ const productos = [
     ],
   },
   {
-    name: "IPHONE 16 PRO",
+    name: "iPhone 16 Pro",
 
     image: "celulares/crop_i16p.png",
 
-    price: "$0.000",
+    price: "$1.500,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -32,11 +34,12 @@ const productos = [
     ],
   },
   {
-    name: "IPHONE 15 PRO MAX",
+    name: "iPhone 15 Pro Max",
 
     image: "celulares/crop_i15pm.png",
 
-    price: "$0.000",
+    price: "$1.500,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -48,11 +51,12 @@ const productos = [
     ],
   },
   {
-    name: "iPad PRO",
+    name: "iPad Pro",
 
     image: "celulares/ipadpro.png",
 
-    price: "$0.000",
+    price: "$1.000,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 13"',
@@ -68,7 +72,8 @@ const productos = [
 
     image: "celulares/airpodsmax2.png",
 
-    price: "$0.000",
+    price: "$800,00",
+    quantity: 1,
 
     specs: [
       "Audio espacial",
@@ -81,11 +86,12 @@ const productos = [
   },
 
   {
-    name: "IPHONE 17",
+    name: "iPhone 17",
 
     image: "celulares/crop_i17b.png",
 
-    price: "$0.000",
+    price: "$2.000,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -101,7 +107,8 @@ const productos = [
 
     image: "celulares/ipadair.png",
 
-    price: "$0.000",
+    price: "$1.600,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 11"',
@@ -114,11 +121,12 @@ const productos = [
   },
 
   {
-    name: "IPHONE 16",
+    name: "iPhone 16",
 
     image: "celulares/crop_i16b.png",
 
-    price: "$0.000",
+    price: "$1.500,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -130,11 +138,12 @@ const productos = [
     ],
   },
   {
-    name: "MacBook NEO",
+    name: "MacBook Neo",
 
     image: "celulares/pruebamacbook.png",
 
-    price: "$0.000",
+    price: "$3.000,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 14"',
@@ -147,11 +156,12 @@ const productos = [
   },
 
   {
-    name: "MacBook AIR",
+    name: "MacBook Air",
 
     image: "celulares/macbookair.png",
 
-    price: "$0.000",
+    price: "$2.600,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 13.6"',
@@ -163,11 +173,12 @@ const productos = [
     ],
   },
   {
-    name: "IPHONE 16 PRO MAX",
+    name: "iPhone 16 Pro Max",
 
     image: "celulares/crop_i16pm.png",
 
-    price: "$0.000",
+    price: "$1.500,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.9" OLED 120Hz',
@@ -183,7 +194,8 @@ const productos = [
 
     image: "celulares/ps5.png",
 
-    price: "$0.000",
+    price: "$1.500,00",
+    quantity: 1,
 
     specs: [
       "SSD 1 TB",
@@ -196,11 +208,12 @@ const productos = [
   },
 
   {
-    name: "IPHONE 15 PRO",
+    name: "iPhone 15 Pro",
 
     image: "celulares/crop_i15p.png",
 
-    price: "$0.000",
+    price: "$1.500,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -212,11 +225,12 @@ const productos = [
     ],
   },
   {
-    name: "IPHONE 15",
+    name: "iPhone 15",
 
     image: "celulares/crop_i15b.png",
 
-    price: "$0.000",
+    price: "$1.200,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -232,7 +246,8 @@ const productos = [
 
     image: "celulares/smartwatchse3.png",
 
-    price: "$0.000",
+    price: "$1.200,00",
+    quantity: 1,
 
     specs: [
       "Pantalla Retina",
@@ -244,11 +259,12 @@ const productos = [
     ],
   },
   {
-    name: "IPHONE 17 PRO",
+    name: "iPhone 17 Pro",
 
     image: "celulares/crop_i17p.png",
 
-    price: "$0.000",
+    price: "$2.000,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 6.3" OLED 120Hz',
@@ -264,7 +280,8 @@ const productos = [
 
     image: "celulares/ipadmini.png",
 
-    price: "$0.000",
+    price: "$1.300,00",
+    quantity: 1,
 
     specs: [
       'Pantalla 8.3"',

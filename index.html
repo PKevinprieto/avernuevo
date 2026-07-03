@@ -15,7 +15,10 @@
     <header class="hero">
       <div class="hero-logo">
         <img src="LOGO3.svg" alt="home" class="logo" />
-        <button class="carro">🛒</button>
+        <button id="btn-carrito" class="carro">
+          🛒
+          <span id="cart-counter">0</span>
+        </button>
       </div>
       <nav class="navbar">
         <ul class="nav-list">
@@ -25,6 +28,7 @@
         </ul>
       </nav>
     </header>
+    <div id="toast"></div>
     <main>
       <div class="prueba">
         <div class="title2">
@@ -38,7 +42,18 @@
           ←
         </button>
       </div>
+
       <section class="cards"></section>
     </main>
+    <div class="modal">
+      <div class="modal-content" style="display: none">
+        <span class="close-modal">&times;</span>
+
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $<span id="total-amount">0,00</span></p>
+        <button id="btn-comprar">Comprar</button>
+      </div>
+    </div>
   </body>
 </html>
