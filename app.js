@@ -24,22 +24,7 @@ function createCard(product) {
   card.appendChild(back);
   cards.appendChild(card);
 }
-// function createFront(product) {
-//   const front = document.createElement("div");
-//   front.classList.add("front-div");
-//   const title = createTitle(product);
-//   const image = createImage(product);
-//   const price = createPrice(product);
-//   const btnView = createButton("View More", "btn-view");
-//   front.appendChild(title);
-//   front.appendChild(image);
-//   front.appendChild(price);
-//   front.appendChild(btnView);
-//   btnView.addEventListener("click", () => {
-//     front.style.display = "none";
-//   });
-//   return front;
-// }
+
 function createFront(product) {
   const front = document.createElement("div");
   front.classList.add("front-div");
