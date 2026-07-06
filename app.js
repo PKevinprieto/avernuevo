@@ -40,7 +40,7 @@ function createCard(product) {
     } else {
       const listItem = document.createElement("li");
       listItem.setAttribute("data-name", product.name);
-      const price = product.price;
+      const price = Number(product.price);
       // const price = parseFloat(
       //   product.price.replace("$", "").replace(".", "").replace(",", "."),
       // );
